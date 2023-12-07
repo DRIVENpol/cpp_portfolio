@@ -27,6 +27,8 @@ int main() {
     int gcd = extendedEuclidean(a, b, x, y);
 
     cout << "The GCD of " << a << " and " << b << " is " << gcd << endl;
+
+    // x, y  for 35x + 15y = gcd(35, 15)
     cout << "Coefficients: x = " << x << ", y = " << y << endl;
 
     return 0;
