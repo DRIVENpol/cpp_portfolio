@@ -45,7 +45,8 @@ int main() {
     
     cout << endl;
 
-    // We move the pointer back to the start of the array.
+    // Move the pointer backwards by half the length of the array.
+    // For example, if size = 7, ptr moves 3 elements back
     ptr -= size / 2;
 
     // Calculate the distance between two pointers.
