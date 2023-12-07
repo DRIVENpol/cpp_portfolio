@@ -25,7 +25,7 @@ int evaluatePostfix(const string& expression) {
     istringstream iss(expression);
     string token;
 
-    // the extraction operator >> reads from the iss stream and stores the read data into token.
+    // The extraction operator >> reads from the iss stream and stores the read data into token.
     while (iss >> token) {
         if (isdigit(token[0])) {
             // If the token is a number, push it onto the stack
