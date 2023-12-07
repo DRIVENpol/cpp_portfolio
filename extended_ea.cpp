@@ -1,5 +1,5 @@
 // The Extended Euclidean Algorithm is an extension of the Euclidean Algorithm, 
-// which is used to find the greatest common divisor (GCD) of two integers. In addition to finding the GCD
+// which is used to find the greatest common divisor (GCD) of two integers
 #include <iostream>
 
 using namespace std;
